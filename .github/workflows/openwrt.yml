@@ -31,7 +31,7 @@ jobs:
         env:
           DEBIAN_FRONTEND: noninteractive
         run: |
-    steps:
+   steps:
       - name: Space cleanup and Initialization environment
         env:
           DEBIAN_FRONTEND: noninteractive
