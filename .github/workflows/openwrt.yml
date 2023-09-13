@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
 
-   steps:
+    steps:
       - name: Space cleanup and Initialization environment
         env:
           DEBIAN_FRONTEND: noninteractive
